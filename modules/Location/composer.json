@@ -1,0 +1,25 @@
+{
+    "name": "alyson/location",
+    "authors": [
+        {
+            "name": "Alyson Rodrigo",
+            "email": "g.dasilva@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Modules\\Location\\": "./"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Location\\Providers\\LocationServiceProvider"
+            ],
+            "aliases": {
+                "Location" : "Modules\\Location\\Facades\\Location"
+            }
+        }
+    }
+}

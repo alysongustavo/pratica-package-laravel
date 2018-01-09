@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "348941d5f4f47148133c5ee79bb6f1b8",
+    "packages": [
+        {
+            "name": "alyson/location",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alysongustavo/laravel-location.git",
+                "reference": "d7b9adeca0456278f56d3919d2d139e7e78c512e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alysongustavo/laravel-location/zipball/d7b9adeca0456278f56d3919d2d139e7e78c512e",
+                "reference": "d7b9adeca0456278f56d3919d2d139e7e78c512e",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Modules\\Location\\Providers\\LocationServiceProvider"
+                    ],
+                    "aliases": {
+                        "Location": "Modules\\Location\\Facades\\Location"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\Location\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Alyson Rodrigo",
+                    "email": "g.dasilva@hotmail.com"
+                }
+            ],
+            "time": "2018-01-09T11:49:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "alyson/location": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

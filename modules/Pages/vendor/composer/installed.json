@@ -1,0 +1,43 @@
+[
+    {
+        "name": "alyson/location",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/alysongustavo/laravel-location.git",
+            "reference": "d7b9adeca0456278f56d3919d2d139e7e78c512e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/alysongustavo/laravel-location/zipball/d7b9adeca0456278f56d3919d2d139e7e78c512e",
+            "reference": "d7b9adeca0456278f56d3919d2d139e7e78c512e",
+            "shasum": ""
+        },
+        "time": "2018-01-09T11:49:21+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Modules\\Location\\Providers\\LocationServiceProvider"
+                ],
+                "aliases": {
+                    "Location": "Modules\\Location\\Facades\\Location"
+                }
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Modules\\Location\\": "./"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Alyson Rodrigo",
+                "email": "g.dasilva@hotmail.com"
+            }
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+{
+    "name": "alyson/pages",
+    "authors": [
+        {
+            "name": "Alyson Rodrigo",
+            "email": "g.dasilva@hotmail.com"
+        }
+    ],
+    "require": {
+        "alyson/location": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Pages\\": "./"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Pages\\Providers\\PageServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    }
+}
